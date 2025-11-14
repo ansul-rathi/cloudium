@@ -78,7 +78,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-center text-sm">
                 <Mail size={16} className="mr-2 flex-shrink-0" />
-                <span>info@cloudium.inc</span>
+                <span>info@cloudium.ink</span>
               </li>
               <li className="flex items-start text-sm">
                 <Clock size={16} className="mr-2 mt-1 flex-shrink-0" />
