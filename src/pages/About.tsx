@@ -1,4 +1,4 @@
-import { Target, Eye, Award, CheckCircle, User } from 'lucide-react';
+import { Target, Eye, Award, CheckCircle } from 'lucide-react';
 
 interface AboutProps {
   onNavigate: (page: string) => void;
@@ -153,12 +153,12 @@ export default function About({ onNavigate }: AboutProps) {
 
           <div className="max-w-md mx-auto">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="bg-gradient-to-br from-blue-900 to-blue-700 h-48 flex items-center justify-center">
+              {/* <div className="bg-gradient-to-br from-blue-900 to-blue-700 h-48 flex items-center justify-center">
                 <User size={80} className="text-white" />
-              </div>
+              </div> */}
               <div className="p-6 text-center">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Sameer Nowal</h3>
-                <p className="text-blue-600 font-semibold mb-4">Director</p>
+                <p className="text-blue-600 font-semibold mb-4">Manager</p>
                 <p className="text-gray-600 mb-4">
                   With over 15 years of experience in IT consulting and digital transformation,
                   Sameer leads Cloudium TechWorks with a vision to deliver innovative technology
